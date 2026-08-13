@@ -25,8 +25,8 @@ This repository contains the complete frontend architecture for Rethabile's Flam
 ## Part 1 Details
 This initial submission successfully implements Phase 1 of the POE project criteria, focusing on foundational semantic layout building blocks, information tracking, and clean directory structures using customized directories (`css_assets`, `js_assets`, and `_images`). 
 
-## Sitemap
-The web application architecture features a strict 5-page static layout design mapping:
+## Architectural Mapping & Sitemap
+The website structure follows a strict, responsive 5-page static layout paradigm with global navigation elements:
 
 ```text
                         ┌───────────────────┐
@@ -39,9 +39,24 @@ The web application architecture features a strict 5-page static layout design m
    │ about.html│  │products.html│    │enquiries.html│ │contact.html│
    │ (Story)   │  │(Menu/Items)│     │(FAQ/Booking) │ │(Locations) │
    └───────────┘  └────────────┘     └────────────┘  └────────────┘
+```
+
+---
+
+## File Structure and Directories
+Following strict delivery criteria, the local directory assets are organized identically to our production system:
+* **Root Directory:** Houses all 5 structural structural static core page markers (`index.html`, `about.html`, `products.html`, `enquiries.html`, `contact.html`).
+* **📁 `css_assets/`:** Contains `style.css` which holds our custom fast-casual dark concrete color layout variables.
+* **📁 `js_assets/`:** Reserved for future client-side interactive programming scripts.
+* **📁 `_images/`:** Houses production photography vectors (`Hero.png`, `burger.png`, `drinks.png`, `Logo.png`).
+
+---
 
 ## Changelog
 * **2026-08-13 (v1.0.0):** Initialized repository frames. Configured all 5 core semantic pages. Consolidated the hot burger selections and beverage catalogs under `products.html`. Converted `enquiries.html` into a static, input-free booking FAQ ledger. Resolved rendering anomalies for `_images/Hero.png` and synced project stylesheets inside `css_assets/style.css`.
+
+---
+
 ## References
 * Hostinger South Africa. 2026. *Web Hosting for Small Businesses*. Available at: `https://hostinger.co.za` [Accessed 13 August 2026].
 
