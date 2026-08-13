@@ -24,7 +24,6 @@ This repository contains the complete frontend architecture for Rethabile's Flam
   
 ## Part 1 Details
 This initial submission successfully implements Phase 1 of the POE project criteria, focusing on foundational semantic layout building blocks, information tracking, and clean directory structures using customized directories (`css_assets`, `js_assets`, and `_images`). 
-* **Note:** *Part 2 (Advanced CSS Styles/Responsiveness) and Part 3 (JavaScript Functionality/Client Interactivity) will follow in future project milestone submissions and directory updates.*
 
 ## Sitemap
 The web application architecture features a strict 5-page static layout design mapping:
