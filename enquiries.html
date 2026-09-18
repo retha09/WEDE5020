@@ -3,53 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rethabile's Flame Burger | Enquiries</title>
-    <link rel="stylesheet" href="css_assets/style.css">
+    <title>Enquiries - Rethabile's Flame Burger</title>
+    <link rel="stylesheet" href="css_assets/myfirststyle.css">
 </head>
 <body>
 
     <header>
-        <img src="_images/logo.png" alt="Rethabile's Flame Burger Logo">
+        <img src="_images/Logo.png" alt="Rethabile's Flame Burger Logo">
         <nav>
-            <ol>
+            <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About Us</a></li>
                 <li><a href="products.html">Menu & Products</a></li>
                 <li><a href="enquiries.html">Enquiries</a></li>
                 <li><a href="contact.html">Contact</a></li>
-            </ol>
+            </ul>
         </nav>
     </header>
 
-    <main class="container">
-        <h1>Table & Event Catering Reservation</h1>
-        <form action="#" method="POST">
-            <div class="form-field">
-                <label for="name">Customer Full Name:</label>
-                <input type="text" id="name" name="name" required>
-            </div>
-            <div class="form-field">
-                <label for="reservation-type">Booking Objective:</label>
-                <select id="reservation-type" name="reservation-type">
-                    <option value="dinein">Standard Table Reservation (Lounge Space)</option>
-                    <option value="collect">Click-and-Collect Retail Order Hub Pickup</option>
-                    <option value="catering">Custom Party Catering Event Request</option>
-                </select>
-            </div>
-            <div class="form-field">
-                <label for="party-count">Total Guests / Servings:</label>
-                <select id="party-count" name="party-count">
-                    <option value="1-2">1 - 2 Diners</option>
-                    <option value="3-4">3 - 4 Diners</option>
-                    <option value="large">5+ Group Booking</option>
-                </select>
-            </div>
-        
-        </form>
+        <main>
+        <!-- BOLD ACCENT BANNER TITLE -->
+        <div class="content-box" style="background-color: #D32F2F; color: white;">
+            <h1>ENQUIRIES & PARTY BOOKINGS</h1>
+            <p style="color: white; margin-bottom: 0; padding-top: 5px;">Planning a big visit or need custom catering updates? Complete our quick booking form below.</p>
+        </div>
+
+        <!-- NEW INTERACTIVE BOOKING FORM CONTAINER -->
+        <div class="content-box" style="text-align: left;">
+            <h2 style="text-align: center; margin-bottom: 20px;">📋 Secure Your Reservation</h2>
+            
+            <form style="display: flex; flex-direction: column; gap: 15px; max-width: 500px; margin: 0 auto; width: 100%;">
+                
+                <!-- FIELD 1: Full Name Input -->
+                <div style="display: flex; flex-direction: column; gap: 5px;">
+                    <label style="font-weight: bold; color: #4A3E3D;">Full Name:</label>
+                    <input type="text" placeholder="Enter your name" style="padding: 10px; border-radius: 4px; border: 1px solid #EADFCA; width: 100%; font-size: 15px;">
+                </div>
+
+                <!-- FIELD 2: Email Contact Input -->
+                <div style="display: flex; flex-direction: column; gap: 5px;">
+                    <label style="font-weight: bold; color: #4A3E3D;">Email Address:</label>
+                    <input type="email" placeholder="Enter your email" style="padding: 10px; border-radius: 4px; border: 1px solid #EADFCA; width: 100%; font-size: 15px;">
+                </div>
+
+                <!-- FIELD 3: Booking Type Select Menu -->
+                <div style="display: flex; flex-direction: column; gap: 5px;">
+                    <label style="font-weight: bold; color: #4A3E3D;">Booking Type:</label>
+                    <select style="padding: 10px; border-radius: 4px; border: 1px solid #EADFCA; width: 100%; font-size: 15px; background-color: white;">
+                        <option>Select an option...</option>
+                        <option>Group Table Reservation (10+ guests)</option>
+                        <option>Bulk Event Catering Order (15+ items)</option>
+                        <option>General Menu Enquiry</option>
+                    </select>
+                </div>
+
+                <!-- FIELD 4: Text Message Description Box -->
+                <div style="display: flex; flex-direction: column; gap: 5px;">
+                    <label style="font-weight: bold; color: #4A3E3D;">Additional Details / Special Requests:</label>
+                    <textarea rows="4" placeholder="Tell us more about your event size, date, or preferred menu choices..." style="padding: 10px; border-radius: 4px; border: 1px solid #EADFCA; width: 100%; font-size: 15px; font-family: Arial, sans-serif; resize: vertical;"></textarea>
+                </div>
+
+                <!-- SUBMIT BUTTON BUTTON -->
+                <button type="button" style="background-color: #D32F2F; color: white; border: none; padding: 12px; font-size: 16px; font-weight: bold; border-radius: 4px; cursor: pointer; text-transform: uppercase; margin-top: 10px; transition: background-color 0.2s ease;">
+                    Submit Booking Request
+                </button>
+
+            </form>
+        </div>
+
     </main>
 
+
     <footer>
-        <p>&copy; 2026 Rethabile's Flame Burger. All Rights Reserved.</p>
+        <p>© 2026 Rethabile's Flame Burger. All Rights Reserved.</p>
     </footer>
 
 </body>
