@@ -39,6 +39,24 @@ Our website platform uses a flat navigation structure to make sure customers can
 * Created the website files on the computer and wrote out the main text areas for the five HTML pages.
 * Added the colors and styles using the style.css file, linked our Unsplash pictures, and uploaded the project to GitHub.
 
+## Part 1 Feedback Integration & Changelog
+The following structural, technical, and analytical edits were implemented to directly resolve supervisor feedback from Part 1:
+* Wireframe Synchronization: successfully updated the structural wireframes for the Home, About Us, and Menu/Products pages to match the final responsive vertical container flow.
+* Fixed Case-Sensitive Asset Paths: Resolved the broken picture icon by correcting the `.jpg` and `.png` file path strings to match the project image folder.
+* Restored Interactive Elements: Replaced static information panels on the Enquiries page with a functional booking input form block to meet core assignment criteria.
+* Current Website Analysis Integration:* Documented the missing critical analysis for both business cases below to fulfill Part 1 grading requirements directly within the repository workspace.
+
+## Proposal 1 Evaluation: Rethabile's Flame Burger
+The brand's operational model relies entirely on physical customer walk-ins and local word-of-mouth marketing, which severely restricts business expansion across Gauteng. Without an official web platform, the restaurant suffers from zero visibility in digital search directories, missing out on massive consumer markets. Menu item details, pricing adjustments, and branch contact numbers cannot be discovered or verified online. This gap drives potential local catering leads straight to competitors who maintain active digital storefront portals.
+
+## Proposal 2 Evaluation: Glow Cosmetics
+The existing customer enquiry pipeline is managed completely via manual, offline logbooks and standalone communication channels. This administrative dependency results in high operational friction, booking response delays, and frequent data entry mismatches during high-volume product launches. Without a centralized, interactive digital intake form framework, inventory tracking data cannot sync efficiently. This manual lag routinely compromises order fulfillment pipelines and reduces overall customer retention rates across regional distribution centers.
+
+## Design & Style Implementations (Part 2)
+- Added an eye-friendly, warm golden sand theme canvas background to match the primary food palette.
+- Upgraded top navigation list links into modern, rounded capsule button structures with interactive hover states.
+- Applied relative padding parameters to keep centered text elements scanning cleanly down the page view.
+
 
 ## Reference
 Bishop, J. (2019). Rethabile's Flame Burger Hero Banner Asset. [online] Unsplash. Available at: https://unsplash.com [Accessed 10 Aug. 2026].
