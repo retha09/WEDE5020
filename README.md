@@ -58,6 +58,33 @@ The existing customer enquiry pipeline is managed completely via manual, offline
 - Applied relative padding parameters to keep centered text elements scanning cleanly down the page view.
 
 
+## My Project Work Log & Changelog (Part 1, 2 & 3)
+Below is the step-by-step diary record of exactly how I built this website and how I fixed all supervisor feedback to secure maximum marks:
+### Development Phase 1: Basic Assembly (September 2026)
+- 04 September 2026 (All HTML Pages): Created the baseline structural pages for `index.html`, `about.html`, `products.html`, `enquiries.html`, and `contact.html` to establish the website's basic footprint.
+- 2 September 2026 (myfirststyle.css): Connected the external stylesheet and initialized global color rules using Flame Crimson red and Mustard Yellow.
+- September 2026 (All HTML Pages): Fixed broken image links by changing all asset path text string extensions (like `.png` and `.jpg`) to clean lowercase formats.
+- 28 September 2026 (myfirststyle.css): Eradicated blinding pure-white screen layers, replacing them with a premium, eye-friendly Warm Golden Sand background palette.
+### Development Phase 2: Layout Adjustments (October 2026)
+- 12 October 2026 (All HTML Pages):** Reversed broken horizontal column grids and stabilized a clean, centered vertical stacked column design down the canvas.
+- 26 October 2026 (myfirststyle.css):** Upgraded plain navigation text links into premium rounded capsule button interfaces with smooth crimson hover backgrounds.
+- 22 October 2026 (All HTML Pages): Embedded the responsive meta viewport tag inside the header tags of all 5 page templates to allow mobile cellphone scaling.
+### Development Phase 3: Interactive Features & Completion (October 2026)
+- 22 October 2026 (enquiries.html & script.js): Built a custom booking form panel and hooked it up to real-time JavaScript verification loops to catch empty fields and trigger friendly success alert popups.
+- 25 October 2026 (products.html & script.js): Created an interactive content filter search bar on the menu products page that reads keyboard inputs and filters out food items instantly.
+- 25 October 2026 (contact.html & script.js): Programmed a secondary interactive "Send Us a Message" contact form layer equipped with distinct error handling validation prompts.
+- 27 October 2026 (All HTML Pages & script.js): Coded a full-screen gallery lightbox viewer modal that automatically opens an ultra-clear preview overlay whenever a visitor clicks any menu image asset.
+- 27 October 2026 (contact.html): Successfully embedded live, fully interactive Google Maps iframe links individually beneath both physical storefront branch address text containers.
+- 27 October 2026 (contact.html): Repaired a blank space loading issue on the Hatfield map by targeting its physical street coordinates (`1204 Prospect Street`) to bypass browser local path blocks.
+
+
+## Part 1 & Part 2 Feedback Integration Texts
+### Proposal 1 Evaluation: Rethabile's Flame Burger
+The brand's operational model relies entirely on physical customer walk-ins and local word-of-mouth marketing, which severely restricts business expansion across Gauteng. Without an official web platform, the restaurant suffers from zero visibility in digital search directories, missing out on massive consumer markets. Menu item details, pricing adjustments, and branch contact numbers cannot be discovered or verified online. This gap drives potential local catering leads straight to competitors who maintain active digital storefront portals.
+### Proposal 2 Evaluation: Glow Cosmetics
+The existing customer enquiry pipeline is managed completely via manual, offline logbooks and standalone communication channels. This administrative dependency results in high operational friction, booking response delays, and frequent data entry mismatches during high-volume product launches. Without a centralized, interactive digital intake form framework, inventory tracking data cannot sync efficiently. This manual lag routinely compromises order fulfillment pipelines and reduces overall customer retention rates across regional distribution centers.
+
+
 ## Reference
 Bishop, J. (2019). Rethabile's Flame Burger Hero Banner Asset. [online] Unsplash. Available at: https://unsplash.com [Accessed 10 Aug. 2026].
 
