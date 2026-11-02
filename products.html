@@ -3,13 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menu & Products - Rethabile's Flame Burger</title>
+    <title>Browse Our Premium Flame-Grilled Burger Menu & Gourmet Shakes</title>
+    <meta name="description" content="Explore our extensive artisan menu. From the Signature Double Smash Burger to crispy buttermilk chicken breast, plant-based options, ice-cold beverages, and thick Oreo shakes.">
+    <meta name="keywords" content="smash burger prices, spicy chilli burger menu, buttermilk chicken crunch, vegan burger option, double thick milkshakes Pretoria, traditional rock shandy price">
     <link rel="stylesheet" href="css_assets/myfirststyle.css">
 </head>
 <body>
 
     <header>
-        <img src="_images/Logo.png" alt="Rethabile's Flame Burger Logo">
+        <img src="_images/rethabile-flame-burger-logo.png" alt="Rethabile's Flame Burger Logo">
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -22,52 +24,81 @@
     </header>
 
     <main>
-        <div class="content-box" style="background-color: #D32F2F; color: white;">
+        <div class="content-box" style="background-color: #D32F2F; color: white; text-align: center;">
             <h1>OUR FULL MENU & PRODUCTS</h1>
             <p style="color: white; margin-bottom: 0; padding-top: 5px;">Browse our extensive selection of handcrafted, flame-grilled premium burgers and ice-cold refreshing beverages.</p>
         </div>
 
+        <!-- MENU SEARCH INPUT FIELD -->
         <div class="content-box">
-            <img src="_images/burger.png" alt="Premium Beef Smash Burgers" style="max-width: 400px;">
-            <h2>🍔 Premium Beef Smash Burgers</h2>
-            <ul>
-                <li><strong>The Signature Smash (R85):</strong> Double smashed beef patties, two slices of real cheddar, caramelized onions, pickles, and house basting sauce.</li>
-                <li><strong>The Fiery Chilli Blaze (R95):</strong> Double smashed beef patties infused with freshly chopped bird's eye chillies and jalapeños.</li>
-            </ul>
+            <h2 style="text-align: center; margin-bottom: 12px;">🔍 Search Our Menu</h2>
+            <input type="text" id="menuSearchInput" placeholder="Type to filter burgers, drinks, shakes..." style="width: 100%; max-width: 600px; padding: 12px; border-radius: 6px; border: 2px solid #EADFCA; font-size: 16px; display: block; margin: 0 auto; outline: none;">
         </div>
 
-        <div class="content-box">
-            <h2>🍗 Chicken & Veggie Burgers</h2>
-            <ul>
-                <li><strong>The Flame-Grilled Chicken Breast (R75):</strong> Tender chicken breast basted in lemon-herb or peri-peri sauce, topped with crisp lettuce and tomato.</li>
-                <li><strong>The Crispy Buttermilk Crunch (R85):</strong> Deep-fried southern-style buttermilk chicken breast, spicy purple slaw, and burger pickles.</li>
-                <li><strong>The Plant-Based Flame (R90):</strong> Premium grilled vegetarian patty, melted vegan cheese, fresh avocado slices, wild rocket, and garlic aioli.</li>
-            </ul>
-        </div>
+        <div class="desktop-grid">
 
-        <div class="content-box">
-            <img src="_images/drinks.jpg" alt="Ice-Cold Beverages" style="max-width: 400px;">
-            <h2>🥤 Ice-Cold Beverages</h2>
-            <ul>
-                <li><strong>Local Sodas (R25):</strong> Ice-cold 300ml cans of Coca-Cola, Fanta Orange, Creme Soda, or Stoney Ginger Beer.</li>
-                <li><strong>Fresh Fruit Juices (R30):</strong> 100% pure refreshing orange, tropical blend, or apple juices.</li>
-                <li><strong>Traditional Rock Shandy (R35):</strong> A refreshing local classic blend of soda water, lemonade, and a few drops of aromatic bitters.</li>
-            </ul>
-        </div>
+            <!-- MENU CARD 1 -->
+            <div class="content-box menu-item">
+                <img src="_images/signature-double-cheese-smash-burger.png" alt="Premium Beef Smash Burgers" class="menu-image" style="max-width: 400px;">
+                <h2>🍔 Premium Beef Smash Burgers</h2>
+                <ul>
+                    <li><strong>The Signature Smash (R85):</strong> Double smashed beef patties, two slices of real cheddar, caramelized onions, pickles, and house basting sauce.</li>
+                    <li><strong>The Fiery Chilli Blaze (R95):</strong> Double smashed beef patties infused with freshly chopped bird's eye chillies and jalapeños.</li>
+                </ul>
+            </div>
 
-        <div class="content-box">
-            <h2>🍦 Gourmet Double-Thick Shakes</h2>
-            <ul>
-                <li><strong>The Classic Trio Shakes (R45):</strong> Ultra-creamy double-thick shakes in classic Rich Vanilla, Deep Chocolate, or Sweet Strawberry flavors.</li>
-                <li><strong>The Salted Caramel & Pretzel (R55):</strong> Creamy caramel shake blended with crushed salty pretzels and topped with whipped cream.</li>
-                <li><strong>The Cookies & Cream Crush (R55):</strong> Loaded with crushed chocolate Oreo cookies and fresh whipped cream.</li>
-            </ul>
+            <!-- MENU CARD 2 -->
+            <div class="content-box menu-item">
+                <h2>🍗 Chicken & Veggie Burgers</h2>
+                <ul>
+                    <li><strong>The Flame-Grilled Chicken Breast (R75):</strong> Tender chicken breast basted in lemon-herb or peri-peri sauce, topped with crisp lettuce and tomato.</li>
+                    <li><strong>The Crispy Buttermilk Crunch (R85):</strong> Deep-fried southern-style buttermilk chicken breast, spicy purple slaw, and burger pickles.</li>
+                    <li><strong>The Plant-Based Flame (R90):</strong> Premium grilled vegetarian patty, melted vegan cheese, fresh avocado slices, wild rocket, and garlic aioli.</li>
+                </ul>
+            </div>
+
+            <!-- MENU CARD 3 -->
+            <div class="content-box menu-item">
+                <img src="_images/ice-cold-soft-drinks-refreshments.jpg" alt="Ice-Cold Beverages" class="menu-image" style="max-width: 400px;">
+                <h2>🥤 Ice-Cold Beverages</h2>
+                <ul>
+                    <li><strong>Local Sodas (R25):</strong> Ice-cold 300ml cans of Coca-Cola, Fanta Orange, Creme Soda, or Stoney Ginger Beer.</li>
+                    <li><strong>Fresh Fruit Juices (R30):</strong> 100% pure refreshing orange, tropical blend, or apple juices.</li>
+                    <li><strong>Traditional Rock Shandy (R35):</strong> A refreshing local classic blend of soda water, lemonade, and a few drops of aromatic bitters.</li>
+                </ul>
+            </div>
+
+            <!-- MENU CARD 4 -->
+            <div class="content-box menu-item">
+                <h2>🍦 Gourmet Double-Thick Shakes</h2>
+                <ul>
+                    <li><strong>The Classic Trio Shakes (R45):</strong> Ultra-creamy double-thick shakes in classic Rich Vanilla, Deep Chocolate, or Sweet Strawberry flavors.</li>
+                    <li><strong>The Salted Caramel & Pretzel (R55):</strong> Creamy caramel shake blended with crushed salty pretzels and topped with whipped cream.</li>
+                    <li><strong>The Cookies & Cream Crush (R55):</strong> Loaded with crushed chocolate Oreo cookies and fresh whipped cream.</li>
+                </ul>
+            </div>
+
         </div>
     </main>
 
     <footer>
-        <p>© 2026 Rethabile's Flame Burger. All Rights Reserved.</p>
+        <p>
+            <script>
+                var myDate = new Date();
+                document.write(myDate.getFullYear());
+                document.write(" Rethabile's Flame Burger &copy; - All Rights Reserved. ");
+                var myLastModifiedDate = new Date(document.lastModified);
+                document.write("The Last Modified Date: " + myLastModifiedDate.toDateString());
+            </script>
+        </p>
     </footer>
+
+    <!-- INTERACTIVE GALLERY LIGHTBOX VIEW PANEL -->
+    <div id="lightbox" class="lightbox-modal">
+        <span class="lightbox-close">×</span>
+        <img id="lightbox-img" class="lightbox-content" src="" alt="Popup Preview">
+    </div>
+    <script src="script.js"></script>
 
 </body>
 </html>

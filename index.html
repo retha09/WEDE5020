@@ -3,13 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rethabile's Flame Burger - Home</title>
+    <title>Rethabile's Flame Burger | Charcoal Grilled Smash Burgers Pretoria & Joburg</title>
+    <meta name="description" content="Welcome to Rethabile's Flame Burger! Taste the legendary 100% local grass-fed beef smash burgers charcoal-grilled to absolute perfection. Visit our Hatfield & Maboneng branches today.">
+    <meta name="keywords" content="Rethabile Flame Burger, best smash burgers Pretoria, charcoal grilled burger Johannesburg, gourmet burgers Duncan Yard, Hatfield takeaway restaurants, street food Gauteng">
     <link rel="stylesheet" href="css_assets/myfirststyle.css">
 </head>
 <body>
 
     <header>
-        <img src="_images/Logo.png" alt="Rethabile's Flame Burger Logo">
+        <img src="_images/rethabile-flame-burger-logo.png" alt="Rethabile's Flame Burger Logo">
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -22,23 +24,41 @@
     </header>
 
     <main>
-        <div class="content-box" style="background-color: #D32F2F; color: white;">
+        <div class="content-box" style="background-color: #D32F2F; color: white; text-align: center;">
             <h1>CHARCOAL GRILLED TO PERFECTION</h1>
             <p style="color: white; margin-bottom: 0; padding-top: 5px;">Taste the legendary smash burgers that took the neighborhood by storm.</p>
         </div>
 
-        <div class="content-box">
-            <h2>Welcome to Rethabile's Flame Burger</h2>
-            <p>Our premium beef patties are 100% grass-fed local beef, smashed live on seasoned flat-tops, basted fresh, and packed with authentic street-food flavor.</p>
-            <p>Explore our site pages to check out our artisan menu items, bulk event catering packages, or branch outlet addresses!</p>
-        </div>
+        <!-- CLASS BLOCK FOR DESKTOP SIDE-BY-SIDE POSITIONING -->
+        <div class="desktop-row">
+            <div class="content-box">
+                <h2>Welcome to Rethabile's Flame Burger</h2>
+                <p>Our premium beef patties are 100% grass-fed local beef, smashed live on seasoned flat-tops, basted fresh, and packed with authentic street-food flavor.</p>
+                <p>Explore our site pages to check out our artisan menu items, bulk event catering packages, or branch outlet addresses!</p>
+            </div>
 
-        <img src="_images/Hero.png" alt="Premium Beef Smash Burgers Presentation">
+            <div class="img-container">
+                <img src="_images/gourmet-beef-smash-burger-hero.png" alt="Premium Beef Smash Burgers Presentation">
+            </div>
+        </div>
     </main>
 
     <footer>
-        <p>© 2026 Rethabile's Flame Burger. All Rights Reserved.</p>
+        <p>
+            <script>
+                var myDate = new Date();
+                document.write(myDate.getFullYear());
+                document.write(" Rethabile's Flame Burger &copy; - All Rights Reserved. ");
+                var myLastModifiedDate = new Date(document.lastModified);
+                document.write("The Last Modified Date: " + myLastModifiedDate.toDateString());
+            </script>
+        </p>
     </footer>
 
+    <!-- INTERACTIVE GALLERY LIGHTBOX VIEW PANEL -->
+    <div id="lightbox" class="lightbox-modal">
+        <span class="lightbox-close">×</span>
+        <img id="lightbox-img" class="lightbox-content" src="" alt="Popup Preview">
+    </div>
 </body>
 </html>

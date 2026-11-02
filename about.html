@@ -3,14 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us - Rethabile's Flame Burger</title>
+    <title>Our Story & Core Values | Rethabile's Flame Burger Heritage</title>
+    <meta name="description" content="Discover the local heritage behind Rethabile's Flame Burger. Learn about our signature hardwood charcoal grilling techniques and uncompromised commitment to fresh South African farm ingredients.">
+    <meta name="keywords" content="about flame burger, authentic South African street food history, grass-fed beef sourcing, local restaurant values Pretoria, hardwood charcoal technique">
     <link rel="stylesheet" href="css_assets/myfirststyle.css">
 </head>
 <body>
 
     <header>
-        <img src="_images/Logo.png" alt="Rethabile's Flame Burger Logo">
-
+        <img src="_images/rethabile-flame-burger-logo.png" alt="Rethabile's Flame Burger Logo">
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -44,8 +45,23 @@
     </main>
 
     <footer>
-        <p>© 2026 Rethabile's Flame Burger. All Rights Reserved.</p>
+        <p>
+            <script>
+                var myDate = new Date();
+                document.write(myDate.getFullYear());
+                document.write(" Rethabile's Flame Burger &copy; - All Rights Reserved. ");
+                var myLastModifiedDate = new Date(document.lastModified);
+                document.write("The Last Modified Date: " + myLastModifiedDate.toDateString());
+            </script>
+        </p>
     </footer>
+
+    <!-- INTERACTIVE GALLERY LIGHTBOX VIEW PANEL -->
+    <div id="lightbox" class="lightbox-modal">
+        <span class="lightbox-close">×</span>
+        <img id="lightbox-img" class="lightbox-content" src="" alt="Popup Preview">
+    </div>
+    <script src="script.js"></script>
 
 </body>
 </html>

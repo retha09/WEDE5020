@@ -3,13 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Enquiries - Rethabile's Flame Burger</title>
+    <title>Group Table Reservations & Bulk Event Catering Enquiries</title>
+    <meta name="description" content="Planning a student party or big family cluster table event? Complete our quick online booking form to secure bulk catering packages and group seating layouts 48 hours in advanced.">
+    <meta name="keywords" content="book a table flame burger, bulk burger catering Pretoria, event venue booking Johannesburg, student discount group reservations, custom burger ordering">
     <link rel="stylesheet" href="css_assets/myfirststyle.css">
 </head>
 <body>
 
     <header>
-        <img src="_images/Logo.png" alt="Rethabile's Flame Burger Logo">
+        <img src="_images/rethabile-flame-burger-logo.png" alt="Rethabile's Flame Burger official restaurant brand logo seal featuring a flame-grilled icon emblem.">
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -21,62 +23,66 @@
         </nav>
     </header>
 
-        <main>
-        <!-- BOLD ACCENT BANNER TITLE -->
-        <div class="content-box" style="background-color: #D32F2F; color: white;">
+    <main>
+        <!--TITLE BANNER ACCENT CARD-->
+        <div class="content-box" style="background-color: #D32F2F; color: white; text-align: center;">
             <h1>ENQUIRIES & PARTY BOOKINGS</h1>
             <p style="color: white; margin-bottom: 0; padding-top: 5px;">Planning a big visit or need custom catering updates? Complete our quick booking form below.</p>
         </div>
 
-        <!-- NEW INTERACTIVE BOOKING FORM CONTAINER -->
-        <div class="content-box" style="text-align: left;">
+        <!--COMPREHENSIVE INTERACTIVE BOOKING PANEL-->
+        <div class="content-box">
             <h2 style="text-align: center; margin-bottom: 20px;">📋 Secure Your Reservation</h2>
             
-            <form style="display: flex; flex-direction: column; gap: 15px; max-width: 500px; margin: 0 auto; width: 100%;">
-                
-                <!-- FIELD 1: Full Name Input -->
-                <div style="display: flex; flex-direction: column; gap: 5px;">
-                    <label style="font-weight: bold; color: #4A3E3D;">Full Name:</label>
-                    <input type="text" placeholder="Enter your name" style="padding: 10px; border-radius: 4px; border: 1px solid #EADFCA; width: 100%; font-size: 15px;">
+            <form>
+                <div>
+                    <label>Full Name:</label>
+                    <input type="text" placeholder="Enter your name">
                 </div>
 
-                <!-- FIELD 2: Email Contact Input -->
-                <div style="display: flex; flex-direction: column; gap: 5px;">
-                    <label style="font-weight: bold; color: #4A3E3D;">Email Address:</label>
-                    <input type="email" placeholder="Enter your email" style="padding: 10px; border-radius: 4px; border: 1px solid #EADFCA; width: 100%; font-size: 15px;">
+                <div>
+                    <label>Email Address:</label>
+                    <input type="email" placeholder="Enter your email">
                 </div>
 
-                <!-- FIELD 3: Booking Type Select Menu -->
-                <div style="display: flex; flex-direction: column; gap: 5px;">
-                    <label style="font-weight: bold; color: #4A3E3D;">Booking Type:</label>
-                    <select style="padding: 10px; border-radius: 4px; border: 1px solid #EADFCA; width: 100%; font-size: 15px; background-color: white;">
-                        <option>Select an option...</option>
+                <div>
+                    <label>Booking Type:</label>
+                    <select>
+                        <option value="">Select an option...</option>
                         <option>Group Table Reservation (10+ guests)</option>
                         <option>Bulk Event Catering Order (15+ items)</option>
                         <option>General Menu Enquiry</option>
                     </select>
                 </div>
 
-                <!-- FIELD 4: Text Message Description Box -->
-                <div style="display: flex; flex-direction: column; gap: 5px;">
-                    <label style="font-weight: bold; color: #4A3E3D;">Additional Details / Special Requests:</label>
-                    <textarea rows="4" placeholder="Tell us more about your event size, date, or preferred menu choices..." style="padding: 10px; border-radius: 4px; border: 1px solid #EADFCA; width: 100%; font-size: 15px; font-family: Arial, sans-serif; resize: vertical;"></textarea>
+                <div>
+                    <label>Additional Details / Special Requests:</label>
+                    <textarea rows="4" placeholder="Tell us more about your event size, date, or preferred menu choices..."></textarea>
                 </div>
 
-                <!-- SUBMIT BUTTON BUTTON -->
-                <button type="button" style="background-color: #D32F2F; color: white; border: none; padding: 12px; font-size: 16px; font-weight: bold; border-radius: 4px; cursor: pointer; text-transform: uppercase; margin-top: 10px; transition: background-color 0.2s ease;">
-                    Submit Booking Request
-                </button>
-
+                <button type="submit">Submit Booking Request</button>
             </form>
         </div>
-
     </main>
 
-
     <footer>
-        <p>© 2026 Rethabile's Flame Burger. All Rights Reserved.</p>
+        <p>
+            <script>
+                var myDate = new Date();
+                document.write(myDate.getFullYear());
+                document.write(" Rethabile's Flame Burger &copy; - All Rights Reserved. ");
+                var myLastModifiedDate = new Date(document.lastModified);
+                document.write("The Last Modified Date: " + myLastModifiedDate.toDateString());
+            </script>
+        </p>
     </footer>
 
+    <!--INTERACTIVE GALLERY LIGHTBOX VIEW PANEL-->
+    <div id="lightbox" class="lightbox-modal">
+        <span class="lightbox-close">×</span>
+        <img id="lightbox-img" class="lightbox-content" src="" alt="Popup Preview">
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>

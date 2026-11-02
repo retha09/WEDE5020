@@ -3,13 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us - Rethabile's Flame Burger</title>
+    <title>Contact Us, Operational Hours & Live GPS Interactive Branch Maps</title>
+    <meta name="description" content="Get in touch with Rethabile's Flame Burger team. Find telephone lines, operational support emails, working hours, and live interactive Google Maps for Duncan Yard and Fox Street.">
+    <meta name="keywords" content="contact flame burger, operating hours burger shop, Duncan Yard location map, Fox Street hub address, Pretoria takeaway contact number">
     <link rel="stylesheet" href="css_assets/myfirststyle.css">
 </head>
 <body>
 
     <header>
-        <img src="_images/Logo.png" alt="Rethabile's Flame Burger Logo">
+        <img src="_images/rethabile-flame-burger-logo.png" alt="Rethabile's Flame Burger official restaurant brand logo seal featuring a flame-grilled icon emblem.">
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -22,9 +24,43 @@
     </header>
 
     <main>
-        <div class="content-box" style="background-color: #D32F2F; color: white;">
+        <div class="content-box" style="background-color: #D32F2F; color: white; text-align: center;">
             <h1>CONTACT US & BRANCH LOCATIONS</h1>
             <p style="color: white; margin-bottom: 0; padding-top: 5px;">Have any general questions or feedback? Reach out to our team directly or visit one of our flagship grill spots.</p>
+        </div>
+
+        <!--INTERACTIVE CONTACT FORM CONTROLS -->
+        <div class="content-box">
+            <h2 style="text-align: center; margin-bottom: 20px;">✉️ Send Us A Message</h2>
+            
+            <form id="contactForm">
+                <div>
+                    <label>Full Name:</label>
+                    <input type="text" id="contactName" placeholder="Enter your full name">
+                </div>
+
+                <div>
+                    <label>Email Address:</label>
+                    <input type="email" id="contactEmail" placeholder="Enter your email address">
+                </div>
+
+                <div>
+                    <label>Subject Topic:</label>
+                    <select id="contactSubject">
+                        <option value="">Select a topic...</option>
+                        <option>General Feedback / Compliment</option>
+                        <option>Order Issue / Complaint</option>
+                        <option>Business Partnership Enquiry</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label>Your Message / Question:</label>
+                    <textarea id="contactMessage" rows="4" placeholder="Type your message details here..."></textarea>
+                </div>
+
+                <button type="submit">Send Message</button>
+            </form>
         </div>
 
         <div class="content-box">
@@ -37,19 +73,43 @@
             </ul>
         </div>
 
-        <div class="content-box">
+        <div class="content-box" style="text-align: left;">
             <h2>📍 Our Grill Outlets</h2>
-            <ul>
-                <li><strong>1. Hatfield Storefront (Pretoria):</strong> Duncan Yard, 1204 Prospect Street, Hatfield, Pretoria, 0083</li>
-                <li style="margin-top: 12px;"><strong>2. Maboneng Street Counter (Johannesburg):</strong> Fox Street Hub, 286 Fox Street, Maboneng, Johannesburg, 2094</li>
-            </ul>
-        </div>
+            
+            <div style="margin-top: 20px; margin-bottom: 35px;">
+                <p style="margin-bottom: 10px;"><strong>1. Hatfield Storefront (Pretoria):</strong> Duncan Yard, 1204 Prospect Street, Hatfield, Pretoria, 0083</p>
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3593.580151469256!2d28.237969775400092!3d-25.751394377358412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e9561ba05ca3779%3A0xf17c9346aa8edcb6!2s1204%20Prospect%20St%2C%20Hatfield%2C%20Pretoria%2C%200028!5e0!3m2!1sen!2sza!4v1793309218467!5m2!1sen!2sza" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                </div>
+            </div>
 
+            <div style="margin-top: 20px;">
+                <p style="margin-bottom: 10px;"><strong>2. Maboneng Street Counter (Johannesburg):</strong> Fox Street Hub, 286 Fox Street, Maboneng, Johannesburg, 2094</p>
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3579.776517524342!2d28.056565275415235!3d-26.203947227076714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sFox%20Street%20Hub%2C%20286%20Fox%20Street%2C%20Maboneng%2C%20Johannesburg%2C%202094!5e0!3m2!1sen!2sza!4v1793307493898!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                </div>
+            </div>
+        </div>
     </main>
 
     <footer>
-        <p>© 2026 Rethabile's Flame Burger. All Rights Reserved.</p>
+        <p>
+            <script>
+                var myDate = new Date();
+                document.write(myDate.getFullYear());
+                document.write(" Rethabile's Flame Burger &copy; - All Rights Reserved. ");
+                var myLastModifiedDate = new Date(document.lastModified);
+                document.write("The Last Modified Date: " + myLastModifiedDate.toDateString());
+            </script>
+        </p>
     </footer>
 
+    <!--INTERACTIVE GALLERY LIGHTBOX VIEW PANEL -->
+    <div id="lightbox" class="lightbox-modal">
+        <span class="lightbox-close">×</span>
+        <img id="lightbox-img" class="lightbox-content" src="" alt="Popup Preview">
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
